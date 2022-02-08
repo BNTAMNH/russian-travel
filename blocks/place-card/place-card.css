@@ -1,0 +1,33 @@
+.place-card {
+  display: grid;
+  grid-template-columns: 460fr 484fr;
+  grid-template-rows: minmax(min-content, max-content) 460px;
+  gap: 48px 40px;
+  grid-template-areas:
+    "place-card__title place-card__website"
+    "place-card__image place-card__text";
+  padding-bottom: 80px;
+}
+
+.place-card:last-of-type {
+  padding: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .place-card {
+    grid-template-columns: 440fr 456fr;
+    grid-template-rows: minmax(min-content, max-content) 440px;
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place-card {
+    grid-template-columns: 340fr 352fr;
+    grid-template-rows: minmax(min-content, max-content) minmax(
+        min-content,
+        max-content
+      );
+    gap: 48px 28px;
+  }
+}

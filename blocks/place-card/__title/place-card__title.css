@@ -1,0 +1,14 @@
+.place-card__title {
+  margin: 0;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  grid-area: place-card__title;
+}
+
+@media screen and (max-width: 1023px) {
+  .place-card__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
