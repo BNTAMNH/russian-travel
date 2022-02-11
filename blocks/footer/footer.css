@@ -2,18 +2,12 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  min-width: 1184px;
+  max-width: 1184px;
   padding-bottom: 24px;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1024px) {
   .footer {
-    min-width: 928px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .footer {
-    min-width: 720px;
+    max-width: 928px;
   }
 }
