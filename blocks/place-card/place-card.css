@@ -1,7 +1,7 @@
 .place-card {
   display: grid;
   grid-template-columns: 460fr 484fr;
-  grid-template-rows: minmax(min-content, max-content) 460px;
+  grid-auto-rows: max-content;
   gap: 48px 40px;
   grid-template-areas:
     "place-card__title place-card__website"
@@ -13,21 +13,31 @@
   padding: 0;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1024px) {
   .place-card {
     grid-template-columns: 440fr 456fr;
-    grid-template-rows: minmax(min-content, max-content) 440px;
-    gap: 48px 32px;
+    column-gap: 32px;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 768px) {
   .place-card {
     grid-template-columns: 340fr 352fr;
-    grid-template-rows: minmax(min-content, max-content) minmax(
-        min-content,
-        max-content
-      );
-    gap: 48px 28px;
+    column-gap: 28px;
+    padding-bottom: 73px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .place-card {
+    grid-template-areas:
+    "place-card__title"
+    "place-card__website"
+    "place-card__image"
+    "place-card__text";
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+    padding-bottom: 50px;
+  }
+}
+

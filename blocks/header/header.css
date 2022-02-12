@@ -3,13 +3,26 @@
   display: flex;
   justify-content: space-between;
   max-width: 1184px;
-  padding-top: 28px;
-  padding-bottom: 56px;
+  padding: 28px 48px 56px;
 }
 
 @media screen and (max-width: 1024px) {
   .header {
     padding-bottom: 48px;
-    max-width: calc(928 / 1024 * 100%);
+    max-width: 928px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: 720px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    max-width: 288px;
+    padding: 16px 16px 48px;
   }
 }

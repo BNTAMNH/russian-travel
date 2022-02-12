@@ -9,3 +9,12 @@
   position: relative;
   cursor: pointer;
 }
+
+@media screen and (max-width: 425px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 109%;
+    padding-bottom: 16px;
+    max-width: 288px;
+  }
+}

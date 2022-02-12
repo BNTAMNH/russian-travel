@@ -4,9 +4,23 @@
   grid-area: place-card__image;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
+.place-card__image {
+  width: 440px;
+  height: 440px;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .place-card__image {
-    height: 340px;
     width: 340px;
+    height: 340px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place-card__image {
+    width: 320px;
+    height: 320px;
   }
 }

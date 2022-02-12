@@ -9,10 +9,28 @@
   padding: 0;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .place-card__paragraph {
-    padding-bottom: 25px;
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place-card__paragraph {
     font-size: 16px;
-    line-height: 163%;
+    max-width: 352px;
+    padding-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place-card__paragraph {
+    max-width: 288px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .place-card__paragraph:last-of-type {
+    padding: 0 16px 0;
   }
 }

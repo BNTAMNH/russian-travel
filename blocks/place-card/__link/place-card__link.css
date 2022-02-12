@@ -1,10 +1,8 @@
 .place-card__link {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
-  line-height: 22px;
-  color: #fff;
+  line-height: 122%;
+  color: inherit;
+  text-underline-position: under;
 }
 
 .place-card__link:hover {

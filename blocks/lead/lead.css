@@ -7,6 +7,15 @@
 
 @media screen and (max-width: 1024px) {
   .lead {
-    max-width: calc(928 / 1024 * 100%);
+    max-width: 928px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    width: 100%;
+    padding: 0;
   }
 }

@@ -2,8 +2,22 @@
   text-decoration: none;
   color: inherit;
   padding-right: 18px;
+  font-size: 16px;
+  line-height: 112%;
 }
 
 .footer__link:last-of-type {
   padding: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 100%;
+    padding: 0 16px 32px;
+  }
+
+  .footer__link:last-of-type {
+    padding: 0 16px 0;
+  }
 }
