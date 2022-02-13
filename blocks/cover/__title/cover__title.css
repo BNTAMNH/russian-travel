@@ -10,6 +10,14 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 720px) {
+  .cover__title {
+    font-size: 52px;
+    max-width: 425px;
+  }
+}
+
+
 @media screen and (max-width: 425px) {
   .cover__title {
     font-size: 32px;

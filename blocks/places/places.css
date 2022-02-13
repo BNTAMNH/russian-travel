@@ -8,8 +8,8 @@
 
 @media screen and (max-width: 1024px) {
   .places {
-    padding-left: 48px;
-    padding-right: 48px;
+    max-width: 720px;
+    padding: 0 24px 90px;
   }
 }
 
@@ -20,9 +20,15 @@
   }
 }
 
+@media screen and (max-width: 720px) {
+  .places {
+    max-width: 600px;
+    padding: 0 0 66px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .places {
     max-width: 100%;
-    padding: 0 0 66px;
   }
 }
