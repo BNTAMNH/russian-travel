@@ -22,14 +22,8 @@
 @media screen and (max-width: 720px) {
   .footer {
     margin: 0;
+    padding-left: 0;
     flex-direction: column;
-    max-width: 186px;
-  }
-}
-
-
-@media screen and (max-width: 425px) {
-  .footer {
     max-width: 186px;
   }
 }
