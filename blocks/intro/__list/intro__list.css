@@ -1,4 +1,4 @@
-.list {
+.intro__list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -6,13 +6,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .list {
+  .intro__list {
     padding-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .list {
+  .intro__list {
     padding-bottom: 64px;
   }
 }
